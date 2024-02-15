@@ -44,6 +44,18 @@ class HomePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 20),
               child: Container(
+                color: Colors.indigo[400],
+                padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 50),
+                child: const Text("Column 3",
+                  style: TextStyle(
+                      color: Colors.white
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: Container(
                 color: Colors.indigo[500],
                 padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 50),
                 child: const Text("Column 3",
